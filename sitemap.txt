@@ -1,6 +1,5 @@
-http://example.com/2022/11/30/A-tool-for-NoC-visualization/
+http://example.com/2022/06/03/hello-world/
+http://example.com/2022/10/01/A-tool-for-NoC-visualization/
 http://example.com/2022/10/29/genre-hue/
-http://example.com/2022/11/30/shawlley/
-http://example.com/2022/11/30/hello-world/
 http://example.com/
 http://example.com/tags/cloud-computing-hadoop/
