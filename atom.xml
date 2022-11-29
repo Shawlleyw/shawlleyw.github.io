@@ -2,12 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>shawlley</title>
   
-  
+  <subtitle>post by interest</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
   <updated>2022-11-29T21:58:21.559Z</updated>
   <id>http://example.com/</id>
+  
+  <author>
+    <name>shawlley</name>
+    
+  </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
