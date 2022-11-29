@@ -1,3 +1,4 @@
+http://example.com/2022/09/22/A-RISC-V-circuit-simulator-on-logism-platform/
 http://example.com/2022/08/17/A-interesting-concurrency-bug-with-golang/
 http://example.com/2022/06/03/hello-world/
 http://example.com/2022/10/01/A-tool-for-NoC-visualization/
@@ -5,3 +6,4 @@ http://example.com/2022/10/29/genre-hue/
 http://example.com/
 http://example.com/tags/cloud-computing-hadoop/
 http://example.com/tags/golang-concurrency/
+http://example.com/tags/RISC-V/
