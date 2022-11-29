@@ -16,7 +16,7 @@
 <li>pillow</li>
 </ul>
 <h2 id="MapReduce"><a href="#MapReduce" class="headerlink" title="MapReduce"></a>MapReduce</h2><p>We conducted this experiment through a Map-Reduce process. Each album is designated as a mapping task to be processed by a mapper, generating a transient record. Then the reducers would collect, classify and reduce the records to the final result.</p>
-<p><img src="/../images/genre-hue/map-reduce.svg" alt="map-reduce"></p>
+<p><img src="/images/genre-hue/map-reduce.svg" alt="map-reduce"></p>
 <p><strong>Map</strong></p>
 <p>Basically, a mapper would read records from the dataset. For each album(a given record), the mapper would request its url, fetch the cover, normalize the image, and then extract its main color taking advantage of KMeans. And mappers would generate transient records consisting of genres and main colors, and these records would then be fed to reducers.</p>
 <p><strong>Reduce</strong></p>
@@ -34,5 +34,5 @@
 <h2 id="Result"><a href="#Result" class="headerlink" title="Result"></a>Result</h2><p>The histogram basically lists some album genres and the 4 major colors of their covers. Y axis stands for the number of albums we analyzed, while X axis stands for the genres. Each column is represented in 4 colors which stands for the 4 main colors on the cover of a genre with thicker ones reflecting higher proportions.</p>
 <p>Note that we are not sure whether there is actually any connections between genres and colors of the covers, so this kind of result may not be accurate at all. </p>
 <p><strong>WE MADE IT JUST FOR FUN(ALSO FOR A PRACTICE ON HADOOP MAP-REDUCE) ;)</strong></p>
-<p><img src="/../images/genre-hue/result.png" alt="visualization"></p>
+<p><img src="/images/genre-hue/result.png" alt="visualization"></p>
 </div></article></div></main><footer><div class="paginator"><a href="/2022/11/30/shawlley/" class="next">NEXT</a></div><div class="copyright"><p>© 2015 - 2022 <a href="http://example.com"></a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>
